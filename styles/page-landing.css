@@ -5,12 +5,12 @@ body {
 header {
 	background: url("../images/background_lua_ilustra1.png");
 	background-size:  auto 100%;
-	padding: 20px 0;
+	
 }
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 900px;
 	margin: 0 auto;
 }
 
@@ -27,15 +27,19 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+	font-family: Cormorant Garamond;
+	font-weight: 300;
+	 
 }
 
 nav a:hover {
-	color:;
-	text-decoration: underline;
+	color: #ffffff ;
+	border-bottom: 0.15px solid #ffffff;
+
 }
 
 .trabalhos {
@@ -53,10 +57,17 @@ nav a:hover {
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border: 1px solid #8f8787;
+	transition:.3s all;
+	font-family: Cormorant Garamond;
+	font-weight: 300;
 }
 
 .trabalhos li:hover {
-	border-color: #e20d71a8;
+	border-color: #c41466a8;
+	 transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px #a81158a8;
 }
 
 .trabalhos li:active {
@@ -81,9 +92,10 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url(" ");
+	background: url("../images/footer-lua2.png");
 	padding: 40px 0;
 }
+ 
 
 .copyright {
 	color: #000000;
