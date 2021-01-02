@@ -11,6 +11,7 @@ header {
 .caixa {
 	position: relative;
 	width: 900px;
+	height: 250px;
 	margin: 0 auto;
 }
 
@@ -44,7 +45,7 @@ nav a:hover {
 
 .trabalhos {
 	width: 940px;
-	margin: 0 auto;
+	margin: 2rem auto;
 	padding: 50px 0;
 }
 
@@ -59,7 +60,7 @@ nav a:hover {
 	border: 1px solid #8f8787;
 	transition:.3s all;
 	font-family: Cormorant Garamond;
-	font-weight: 300;
+
 }
 
 .trabalhos li:hover {
@@ -84,16 +85,56 @@ nav a:hover {
 }
 .trabalhos img{
 	padding-top: 1rem;
+	
 }
 
 .trabalhos .image3-trabalhos{
 	padding-top: 3rem;
 }
 
+.descricao-persona{
+	margin-top: 2rem;
+	margin-bottom: 12rem;
+	border-top: 0.50px solid #000000;
+	padding-top: 5rem;
+	text-align: justify;
+	font-family: Cormorant Garamond ;
+	font-size: 1.5em;
+}
+
+.titulo-descricao {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 0 1em;
+	clear: left;
+    
+}
+
+.descricao-persona p {
+	margin: 0 0 1em;
+}
+
+.descricao-persona strong {
+	font-weight: bold;
+}
+
+.descricao-persona em {
+	font-style: italic;
+}
+
+.persona {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+	border-radius: 50%;
+
+}
+
 footer {
 	text-align: center;
 	background: url("../images/footer-lua2.png");
-	padding: 40px 0;
+	padding: 25px 0;
 }
  
 
