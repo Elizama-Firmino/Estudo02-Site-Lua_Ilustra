@@ -34,12 +34,14 @@ nav a {
 	text-decoration: none;
 	font-family: Cormorant Garamond;
 	font-weight: 300;
+	
 	 
 }
 
 nav a:hover {
 	color: #ffffff ;
 	border-bottom: 0.15px solid #ffffff;
+	
 
 }
 
@@ -135,9 +137,9 @@ footer {
 	text-align: center;
 	background: url("../images/footer-lua2.png");
 	padding: 25px 0;
+	
 }
  
-
 .copyright {
 	color: #000000;
 	font-size: 13px;
@@ -148,3 +150,4 @@ main {
 	width: 940px;
 	margin: 0 auto;
 }
+

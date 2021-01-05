@@ -1,0 +1,92 @@
+
+body {
+	font-family: Cormorant Garamond;
+}
+.caixa2{
+	display: block;
+	position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	background: url("../images/image02-contato.svg");
+	background-size:  auto 100%;
+/*	background: linear-gradient(#b60790, #e47171); */
+}
+
+h1{
+	position: relative;
+	z-index: initial;
+	text-align: center;
+	top: 40%;
+}
+
+.caixa-form{
+	display: block;
+	position: absolute;
+    width: 50%;
+	height: 100%;
+	left: 50%;
+	overflow: scroll;
+}
+form{
+	display: block;
+	position: absolute;
+    width: 60%;
+	height:100%;
+	left: 25%;
+	top:5%;
+	padding-top: 1rem;
+
+}
+
+form label, form legend {
+	display:block;
+	font-size: 25px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 70%;
+	font-size: 20px;
+	font-family: Cormorant Garamond;
+}
+
+form select {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	font-family: Cormorant Garamond;
+	outline:none;
+
+}
+
+.enviar {
+	position: absolute;
+	left: 0;
+	width:90%;
+	padding: 15px 0;
+	background: rgb(228, 88, 95);
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	border: none;
+	transition: 0.30s all;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: Cormorant Garamond;
+	outline:none;
+}
+
+.enviar:hover {
+	background: rgb(51, 6, 59);
+	transform: scale(1.0);
+	
+}
+
+
+
