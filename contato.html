@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>Lua Ilustra-Contato</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="styles/page-contato.css">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body id="page-contato">
+		
+
+		<main>
+
+			<div class="caixa2">
+			<h1><img src="images/logo-transparente.png" height="250" alt="Logo Lua Ilustra"></h1>	
+
+            </div>
+			
+			<div class="caixa-form">
+			<form>
+				<label for="nomesobrenome">Nome completo</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Descreva o trabalho que gostaria de ser realizado:</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Tem urgência?</legend>
+
+				    <select>
+						<option>Sim</option>
+						<option>Não</option>
+					</select>
+				
+					
+					<legend>Se SIM , qual o prazo de entrega?</legend>
+					<input type="text" id="sim-urgencia" class="input-padrao" required>	
+
+				</fieldset>
+
+				<fieldset>
+					<legend>Como prefere ser contatado?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+
+			<br><input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</div>
+
+		</main>
+
+	</body>
+</html>
